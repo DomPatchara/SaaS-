@@ -19,4 +19,8 @@
   .fading-image {
     @apply [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]
   }
+
+  .fading-icon {
+    @apply [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]
+  }
 }

@@ -4,7 +4,10 @@ import Hero from '@/section/Hero'
 import LogoTicker from '@/section/LogoTicker'
 import Introduction from '@/section/Introduction'
 import Features from '@/section/Features'
-import Intregrations from '@/section/Intregrations'
+import Integrations from '@/section/Integrations'
+import Faqs from '@/section/Faqs'
+import CallToAction from '@/section/CallToAction'
+import Footer from '@/section/Footer'
 
 const page = () => {
   return (
@@ -14,7 +17,10 @@ const page = () => {
       <LogoTicker/>
       <Introduction/>
       <Features/>
-      <Intregrations/>
+      <Integrations/>
+      <Faqs/>
+      <CallToAction/>
+      <Footer/>
     </>
   )
 }
