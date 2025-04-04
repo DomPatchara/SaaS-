@@ -10,7 +10,7 @@ import twiceLogo from "@/assets/images/twice.svg";
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { inflate } from "zlib";
+
 
 const logos = [
   { name: "Quantum", image: quantumLogo },
